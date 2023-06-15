@@ -1,0 +1,7 @@
+package org.parkjg20.specificationbuilder.sample.application.board.comment.usecase
+
+import org.parkjg20.specificationbuilder.application.board.comment.dto.BoardCommentDto
+import org.parkjg20.specificationbuilder.application.board.comment.dto.BoardCommentFilterDto
+import org.parkjg20.specificationbuilder.application.board.usecase.GetManyUsingCursorUseCase
+
+interface BoardCommentGetManyUsingCursorUseCase : GetManyUsingCursorUseCase<BoardCommentFilterDto, BoardCommentDto>

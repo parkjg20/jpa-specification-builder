@@ -1,0 +1,7 @@
+package org.parkjg20.specificationbuilder.sample.application.board.post.usecase
+
+import org.parkjg20.specificationbuilder.application.board.post.dto.BoardPostDto
+import org.parkjg20.specificationbuilder.application.board.post.dto.BoardPostFilterDto
+import org.parkjg20.specificationbuilder.application.board.usecase.GetManyUsingCursorUseCase
+
+interface BoardPostGetManyUsingCursorUseCase: GetManyUsingCursorUseCase<BoardPostFilterDto, BoardPostDto>
