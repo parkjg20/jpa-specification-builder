@@ -1,7 +1,9 @@
 package org.parkjg20.specificationbuilder.application.board.action.comment.usecase
 
-import com.neoguri.neogurinest.api.domain.board.bean.BoardActor
-import com.neoguri.neogurinest.api.domain.board.exception.*
+import org.parkjg20.specificationbuilder.domain.board.bean.BoardActor
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardCommentActionAlreadyExistException
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardCommentNotFoundException
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardCommentStatusNotActionableException
 
 interface BoardCommentLikeAddUseCase {
 

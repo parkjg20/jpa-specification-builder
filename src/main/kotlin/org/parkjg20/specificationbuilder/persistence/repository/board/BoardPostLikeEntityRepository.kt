@@ -1,9 +1,9 @@
 package org.parkjg20.specificationbuilder.persistence.repository.board
 
-import com.neoguri.neogurinest.api.domain.board.entity.BoardPostLike
-import com.neoguri.neogurinest.api.domain.board.entity.BoardPostLikeId
-import com.neoguri.neogurinest.api.domain.board.repository.BoardPostLikeEntityRepositoryInterface
-import com.neoguri.neogurinest.api.domain.board.repository.jpa.BoardPostLikeRepositoryInterface
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardPostLike
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardPostLikeId
+import org.parkjg20.specificationbuilder.domain.board.repository.BoardPostLikeEntityRepositoryInterface
+import org.parkjg20.specificationbuilder.domain.board.repository.jpa.BoardPostLikeRepositoryInterface
 import org.springframework.stereotype.Repository
 
 @Repository

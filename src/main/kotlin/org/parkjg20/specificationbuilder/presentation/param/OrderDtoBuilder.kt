@@ -1,6 +1,6 @@
 package org.parkjg20.specificationbuilder.presentation.param
 
-import com.neoguri.neogurinest.api.application.common.dto.OrderRequestDto
+import org.parkjg20.specificationbuilder.application.common.dto.OrderRequestDto
 
 class OrderDtoBuilder(
     private val orderString: String?

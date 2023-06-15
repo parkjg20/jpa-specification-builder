@@ -1,12 +1,15 @@
 package org.parkjg20.specificationbuilder.application.board.action.comment.usecase.impl
 
-import com.neoguri.neogurinest.api.application.board.action.comment.usecase.BoardCommentLikeAddUseCase
-import com.neoguri.neogurinest.api.domain.board.bean.BoardActor
-import com.neoguri.neogurinest.api.domain.board.entity.BoardCommentLike
-import com.neoguri.neogurinest.api.domain.board.exception.*
-import com.neoguri.neogurinest.api.domain.board.repository.BoardCommentEntityRepositoryInterface
-import com.neoguri.neogurinest.api.domain.board.repository.BoardCommentLikeEntityRepositoryInterface
-import com.neoguri.neogurinest.api.domain.common.exception.DuplicatedEntityException
+import org.parkjg20.specificationbuilder.application.board.action.comment.usecase.BoardCommentLikeAddUseCase
+import org.parkjg20.specificationbuilder.domain.board.bean.BoardActor
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardCommentLike
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardCommentActionAlreadyExistException
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardCommentNotFoundException
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardCommentStatusNotActionableException
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardPostStatusNotActionableException
+import org.parkjg20.specificationbuilder.domain.board.repository.BoardCommentEntityRepositoryInterface
+import org.parkjg20.specificationbuilder.domain.board.repository.BoardCommentLikeEntityRepositoryInterface
+import org.parkjg20.specificationbuilder.domain.common.exception.DuplicatedEntityException
 import org.springframework.retry.annotation.Retryable
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional

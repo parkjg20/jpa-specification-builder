@@ -1,9 +1,9 @@
 package org.parkjg20.specificationbuilder.domain.auth.entity
 
-import com.neoguri.neogurinest.api.application.auth.dto.LoginUserDto
-import com.neoguri.neogurinest.api.application.auth.service.NeoguriTokenService
-import com.neoguri.neogurinest.api.domain.auth.enum.AuthorizationStatus
-import com.neoguri.neogurinest.api.util.StringGenerator
+import org.parkjg20.specificationbuilder.application.auth.dto.LoginUserDto
+import org.parkjg20.specificationbuilder.application.auth.service.NeoguriTokenService
+import org.parkjg20.specificationbuilder.domain.auth.enum.AuthorizationStatus
+import org.parkjg20.specificationbuilder.util.StringGenerator
 import java.time.Instant
 import javax.persistence.*
 

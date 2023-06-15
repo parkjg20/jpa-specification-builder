@@ -1,9 +1,7 @@
 package org.parkjg20.specificationbuilder
 
-import com.neoguri.neogurinest.api.domain.common.CursorStringParser
 import org.junit.jupiter.api.Test
-import org.junit.jupiter.params.ParameterizedTest
-import org.junit.jupiter.params.provider.ValueSource
+import org.parkjg20.specificationbuilder.domain.common.CursorStringParser
 import org.springframework.boot.test.context.SpringBootTest
 import javax.annotation.Resource
 

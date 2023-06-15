@@ -1,12 +1,12 @@
 package org.parkjg20.specificationbuilder.application.board.action.post.usecase.impl
 
-import com.neoguri.neogurinest.api.application.board.action.post.usecase.BoardPostLikeAddUseCase
-import com.neoguri.neogurinest.api.domain.board.bean.BoardActor
-import com.neoguri.neogurinest.api.domain.board.entity.BoardPostLike
-import com.neoguri.neogurinest.api.domain.board.exception.BoardPostNotFoundException
-import com.neoguri.neogurinest.api.domain.board.exception.BoardPostStatusNotActionableException
-import com.neoguri.neogurinest.api.domain.board.repository.BoardPostEntityRepositoryInterface
-import com.neoguri.neogurinest.api.domain.board.repository.BoardPostLikeEntityRepositoryInterface
+import org.parkjg20.specificationbuilder.application.board.action.post.usecase.BoardPostLikeAddUseCase
+import org.parkjg20.specificationbuilder.domain.board.bean.BoardActor
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardPostLike
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardPostNotFoundException
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardPostStatusNotActionableException
+import org.parkjg20.specificationbuilder.domain.board.repository.BoardPostEntityRepositoryInterface
+import org.parkjg20.specificationbuilder.domain.board.repository.BoardPostLikeEntityRepositoryInterface
 import org.springframework.retry.annotation.Retryable
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional

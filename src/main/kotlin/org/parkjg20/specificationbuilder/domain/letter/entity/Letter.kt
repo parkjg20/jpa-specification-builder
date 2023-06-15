@@ -1,7 +1,7 @@
 package org.parkjg20.specificationbuilder.domain.letter.entity
 
-import com.neoguri.neogurinest.api.domain.letter.enum.LetterStatus
-import com.neoguri.neogurinest.api.domain.user.entity.User
+import org.parkjg20.specificationbuilder.domain.letter.enum.LetterStatus
+import org.parkjg20.specificationbuilder.domain.user.entity.User
 import java.time.Instant
 import javax.persistence.*
 

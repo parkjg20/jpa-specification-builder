@@ -1,12 +1,12 @@
 package org.parkjg20.specificationbuilder.application.board.comment.usecase.impl
 
-import com.neoguri.neogurinest.api.application.board.comment.usecase.BoardCommentStatusUpdateUseCase
-import com.neoguri.neogurinest.api.domain.board.bean.BoardActor
-import com.neoguri.neogurinest.api.domain.board.enum.BoardCommentStatus
-import com.neoguri.neogurinest.api.domain.board.exception.BoardCommentStatusNotConvertableException
-import com.neoguri.neogurinest.api.domain.board.exception.ModifyingOtherUsersCommentException
-import com.neoguri.neogurinest.api.domain.board.repository.BoardCommentEntityRepositoryInterface
-import com.neoguri.neogurinest.api.domain.common.exception.StatusAlreadyChangedException
+import org.parkjg20.specificationbuilder.application.board.comment.usecase.BoardCommentStatusUpdateUseCase
+import org.parkjg20.specificationbuilder.domain.board.bean.BoardActor
+import org.parkjg20.specificationbuilder.domain.board.enum.BoardCommentStatus
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardCommentStatusNotConvertableException
+import org.parkjg20.specificationbuilder.domain.board.exception.ModifyingOtherUsersCommentException
+import org.parkjg20.specificationbuilder.domain.board.repository.BoardCommentEntityRepositoryInterface
+import org.parkjg20.specificationbuilder.domain.common.exception.StatusAlreadyChangedException
 import org.springframework.retry.annotation.Retryable
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional

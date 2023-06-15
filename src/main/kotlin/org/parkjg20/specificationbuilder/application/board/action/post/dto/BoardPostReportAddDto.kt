@@ -1,6 +1,6 @@
 package org.parkjg20.specificationbuilder.application.board.action.post.dto
 
-import com.neoguri.neogurinest.api.domain.board.enum.BoardPostReportType
+import org.parkjg20.specificationbuilder.domain.board.enum.BoardPostReportType
 
 data class BoardPostReportAddDto(
     val postId: String,

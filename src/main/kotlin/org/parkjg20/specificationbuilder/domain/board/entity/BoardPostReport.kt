@@ -1,12 +1,12 @@
 package org.parkjg20.specificationbuilder.domain.board.entity
 
-import com.neoguri.neogurinest.api.application.board.action.post.dto.BoardPostReportAddDto
-import com.neoguri.neogurinest.api.domain.board.enum.BoardPostReportStatus
-import com.neoguri.neogurinest.api.domain.board.enum.BoardPostReportType
-import com.neoguri.neogurinest.api.domain.user.entity.User
-import com.neoguri.neogurinest.api.util.StringGenerator
 import org.hibernate.annotations.DynamicInsert
 import org.hibernate.annotations.DynamicUpdate
+import org.parkjg20.specificationbuilder.application.board.action.post.dto.BoardPostReportAddDto
+import org.parkjg20.specificationbuilder.domain.board.enum.BoardPostReportStatus
+import org.parkjg20.specificationbuilder.domain.board.enum.BoardPostReportType
+import org.parkjg20.specificationbuilder.domain.user.entity.User
+import org.parkjg20.specificationbuilder.util.StringGenerator
 import java.time.Instant
 import javax.persistence.*
 

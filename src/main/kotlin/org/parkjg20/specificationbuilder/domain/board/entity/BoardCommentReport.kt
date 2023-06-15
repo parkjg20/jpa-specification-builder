@@ -1,10 +1,10 @@
 package org.parkjg20.specificationbuilder.domain.board.entity
 
-import com.neoguri.neogurinest.api.application.board.action.comment.dto.BoardCommentReportAddDto
-import com.neoguri.neogurinest.api.domain.board.enum.BoardCommentReportStatus
-import com.neoguri.neogurinest.api.domain.board.enum.BoardCommentReportType
-import com.neoguri.neogurinest.api.domain.user.entity.User
-import com.neoguri.neogurinest.api.util.StringGenerator
+import org.parkjg20.specificationbuilder.application.board.action.comment.dto.BoardCommentReportAddDto
+import org.parkjg20.specificationbuilder.domain.board.enum.BoardCommentReportStatus
+import org.parkjg20.specificationbuilder.domain.board.enum.BoardCommentReportType
+import org.parkjg20.specificationbuilder.domain.user.entity.User
+import org.parkjg20.specificationbuilder.util.StringGenerator
 import java.time.Instant
 import javax.persistence.*
 

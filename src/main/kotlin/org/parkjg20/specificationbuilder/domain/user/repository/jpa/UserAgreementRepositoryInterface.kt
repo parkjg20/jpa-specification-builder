@@ -1,6 +1,6 @@
 package org.parkjg20.specificationbuilder.domain.user.repository.jpa;
 
-import com.neoguri.neogurinest.api.domain.user.entity.UserAgreement
+import org.parkjg20.specificationbuilder.domain.user.entity.UserAgreement
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 

@@ -1,6 +1,6 @@
 package org.parkjg20.specificationbuilder.application.board.channel.dto
 
-import com.neoguri.neogurinest.api.domain.board.entity.BoardHashtag
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardHashtag
 
 data class BoardHashtagDto(
     val hashtagId: String,

@@ -1,9 +1,9 @@
 package org.parkjg20.specificationbuilder.application.board.comment.dto
 
-import com.neoguri.neogurinest.api.application.board.dto.BoardActorDto
-import com.neoguri.neogurinest.api.application.common.dto.DescribedEnumDto
-import com.neoguri.neogurinest.api.domain.board.entity.BoardComment
-import com.neoguri.neogurinest.api.domain.board.enum.BoardCommentStatus
+import org.parkjg20.specificationbuilder.application.board.dto.BoardActorDto
+import org.parkjg20.specificationbuilder.application.common.dto.DescribedEnumDto
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardComment
+import org.parkjg20.specificationbuilder.domain.board.enum.BoardCommentStatus
 
 data class BoardCommentDto(
     val id: String,

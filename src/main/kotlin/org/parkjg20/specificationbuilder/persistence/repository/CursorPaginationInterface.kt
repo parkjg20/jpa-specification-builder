@@ -1,7 +1,7 @@
 package org.parkjg20.specificationbuilder.persistence.repository
 
-import com.neoguri.neogurinest.api.application.common.dto.CursorPage
-import com.neoguri.neogurinest.api.domain.common.CursorPageRequest
+import org.parkjg20.specificationbuilder.application.common.dto.CursorPage
+import org.parkjg20.specificationbuilder.domain.common.CursorPageRequest
 
 interface CursorPaginationInterface<T>: PaginationInterface<T> {
 

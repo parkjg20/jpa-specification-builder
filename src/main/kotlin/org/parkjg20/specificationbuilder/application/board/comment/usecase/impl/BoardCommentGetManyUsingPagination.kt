@@ -1,15 +1,15 @@
 package org.parkjg20.specificationbuilder.application.board.comment.usecase.impl
 
-import com.neoguri.neogurinest.api.application.board.comment.dto.BoardCommentDto
-import com.neoguri.neogurinest.api.application.board.comment.dto.BoardCommentFilterDto
-import com.neoguri.neogurinest.api.application.board.comment.usecase.BoardCommentGetManyUsingPaginationUseCase
-import com.neoguri.neogurinest.api.domain.board.bean.BoardActor
-import com.neoguri.neogurinest.api.application.board.usecase.AbstractGetMany
-import com.neoguri.neogurinest.api.application.common.dto.PaginatedResultDto
-import com.neoguri.neogurinest.api.application.common.dto.PaginationDto
-import com.neoguri.neogurinest.api.domain.board.entity.BoardComment
-import com.neoguri.neogurinest.api.domain.board.repository.BoardCommentEntityRepositoryInterface
-import com.neoguri.neogurinest.api.persistence.specification.board.comment.BoardCommentSpecification
+import org.parkjg20.specificationbuilder.application.board.comment.dto.BoardCommentDto
+import org.parkjg20.specificationbuilder.application.board.comment.dto.BoardCommentFilterDto
+import org.parkjg20.specificationbuilder.application.board.comment.usecase.BoardCommentGetManyUsingPaginationUseCase
+import org.parkjg20.specificationbuilder.application.board.usecase.AbstractGetMany
+import org.parkjg20.specificationbuilder.application.common.dto.PaginatedResultDto
+import org.parkjg20.specificationbuilder.application.common.dto.PaginationDto
+import org.parkjg20.specificationbuilder.domain.board.bean.BoardActor
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardComment
+import org.parkjg20.specificationbuilder.domain.board.repository.BoardCommentEntityRepositoryInterface
+import org.parkjg20.specificationbuilder.persistence.specification.board.comment.BoardCommentSpecification
 import org.springframework.data.domain.PageRequest
 import org.springframework.stereotype.Service
 

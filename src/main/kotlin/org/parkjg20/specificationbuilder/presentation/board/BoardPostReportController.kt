@@ -1,13 +1,13 @@
 package org.parkjg20.specificationbuilder.presentation.board
 
-import com.neoguri.neogurinest.api.application.aspect.BoardContext
-import com.neoguri.neogurinest.api.application.board.action.post.dto.BoardPostReportAddDto
-import com.neoguri.neogurinest.api.application.board.action.post.dto.BoardPostReportDto
-import com.neoguri.neogurinest.api.application.board.action.post.usecase.BoardPostReportAddUseCase
-import com.neoguri.neogurinest.api.domain.board.exception.BoardChannelNotAvailableStatusException
-import com.neoguri.neogurinest.api.domain.board.exception.BoardChannelNotFoundException
-import com.neoguri.neogurinest.api.presentation.BaseController
-import com.neoguri.neogurinest.api.presentation.exception.*
+import org.parkjg20.specificationbuilder.application.aspect.BoardContext
+import org.parkjg20.specificationbuilder.application.board.action.post.dto.BoardPostReportAddDto
+import org.parkjg20.specificationbuilder.application.board.action.post.dto.BoardPostReportDto
+import org.parkjg20.specificationbuilder.application.board.action.post.usecase.BoardPostReportAddUseCase
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardChannelNotAvailableStatusException
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardChannelNotFoundException
+import org.parkjg20.specificationbuilder.presentation.BaseController
+import org.parkjg20.specificationbuilder.presentation.exception.*
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 import java.net.URI

@@ -1,13 +1,13 @@
 package org.parkjg20.specificationbuilder.domain.user.entity
 
-import com.neoguri.neogurinest.api.application.user.dto.request.UserAddDto
-import com.neoguri.neogurinest.api.application.user.dto.request.UserAddressUpdateDto
-import com.neoguri.neogurinest.api.application.user.dto.request.UserProfileUpdateDto
-import com.neoguri.neogurinest.api.domain.file.entity.File
-import com.neoguri.neogurinest.api.domain.user.enum.Gender
-import com.neoguri.neogurinest.api.domain.user.enum.UserFileType
-import com.neoguri.neogurinest.api.domain.user.enum.UserStatus
-import com.neoguri.neogurinest.api.util.PasswordEncryptor
+import org.parkjg20.specificationbuilder.application.user.dto.request.UserAddDto
+import org.parkjg20.specificationbuilder.application.user.dto.request.UserAddressUpdateDto
+import org.parkjg20.specificationbuilder.application.user.dto.request.UserProfileUpdateDto
+import org.parkjg20.specificationbuilder.domain.file.entity.File
+import org.parkjg20.specificationbuilder.domain.user.enum.Gender
+import org.parkjg20.specificationbuilder.domain.user.enum.UserFileType
+import org.parkjg20.specificationbuilder.domain.user.enum.UserStatus
+import org.parkjg20.specificationbuilder.util.PasswordEncryptor
 import java.time.Instant
 import javax.persistence.*
 

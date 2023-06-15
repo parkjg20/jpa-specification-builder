@@ -1,7 +1,7 @@
 package org.parkjg20.specificationbuilder.domain.auth.repository
 
-import com.neoguri.neogurinest.api.domain.auth.entity.Authorization
-import com.neoguri.neogurinest.api.domain.common.repository.AggregateRootRepository
+import org.parkjg20.specificationbuilder.domain.auth.entity.Authorization
+import org.parkjg20.specificationbuilder.domain.common.repository.AggregateRootRepository
 import javax.persistence.EntityNotFoundException
 
 interface AuthorizationEntityRepositoryInterface : AggregateRootRepository<Authorization, String> {

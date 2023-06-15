@@ -1,7 +1,7 @@
 package org.parkjg20.specificationbuilder.application.board.comment.dto
 
-import com.neoguri.neogurinest.api.domain.board.enum.BoardCommentStatus
-import com.neoguri.neogurinest.api.persistence.specification.RangeInstant
+import org.parkjg20.specificationbuilder.domain.board.enum.BoardCommentStatus
+import org.parkjg20.specificationbuilder.persistence.specification.RangeInstant
 
 data class BoardCommentFilterDto(
     val nestId: String?,

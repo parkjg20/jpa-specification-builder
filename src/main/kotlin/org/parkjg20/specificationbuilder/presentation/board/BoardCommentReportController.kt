@@ -1,15 +1,15 @@
 package org.parkjg20.specificationbuilder.presentation.board
 
-import com.neoguri.neogurinest.api.application.aspect.BoardContext
-import com.neoguri.neogurinest.api.application.board.action.comment.dto.BoardCommentReportAddDto
-import com.neoguri.neogurinest.api.application.board.action.comment.dto.BoardCommentReportDto
-import com.neoguri.neogurinest.api.application.board.action.comment.usecase.BoardCommentReportAddUseCase
-import com.neoguri.neogurinest.api.domain.board.exception.BoardChannelNotAvailableStatusException
-import com.neoguri.neogurinest.api.domain.board.exception.BoardChannelNotFoundException
-import com.neoguri.neogurinest.api.presentation.BaseController
-import com.neoguri.neogurinest.api.presentation.exception.ForbiddenException
-import com.neoguri.neogurinest.api.presentation.exception.NotFoundException
-import com.neoguri.neogurinest.api.presentation.exception.UnauthorizedException
+import org.parkjg20.specificationbuilder.application.aspect.BoardContext
+import org.parkjg20.specificationbuilder.application.board.action.comment.dto.BoardCommentReportAddDto
+import org.parkjg20.specificationbuilder.application.board.action.comment.dto.BoardCommentReportDto
+import org.parkjg20.specificationbuilder.application.board.action.comment.usecase.BoardCommentReportAddUseCase
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardChannelNotAvailableStatusException
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardChannelNotFoundException
+import org.parkjg20.specificationbuilder.presentation.BaseController
+import org.parkjg20.specificationbuilder.presentation.exception.ForbiddenException
+import org.parkjg20.specificationbuilder.presentation.exception.NotFoundException
+import org.parkjg20.specificationbuilder.presentation.exception.UnauthorizedException
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody

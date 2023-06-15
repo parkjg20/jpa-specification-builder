@@ -1,13 +1,13 @@
 package org.parkjg20.specificationbuilder.application.board.action.post.usecase.impl
 
-import com.neoguri.neogurinest.api.application.board.action.post.dto.BoardPostReportAddDto
-import com.neoguri.neogurinest.api.application.board.action.post.dto.BoardPostReportDto
-import com.neoguri.neogurinest.api.application.board.action.post.usecase.BoardPostReportAddUseCase
-import com.neoguri.neogurinest.api.domain.board.bean.BoardActor
-import com.neoguri.neogurinest.api.domain.board.entity.BoardPostReport
-import com.neoguri.neogurinest.api.domain.board.exception.BoardPostStatusNotActionableException
-import com.neoguri.neogurinest.api.domain.board.repository.BoardPostEntityRepositoryInterface
-import com.neoguri.neogurinest.api.domain.board.repository.BoardPostReportEntityRepositoryInterface
+import org.parkjg20.specificationbuilder.application.board.action.post.dto.BoardPostReportAddDto
+import org.parkjg20.specificationbuilder.application.board.action.post.dto.BoardPostReportDto
+import org.parkjg20.specificationbuilder.application.board.action.post.usecase.BoardPostReportAddUseCase
+import org.parkjg20.specificationbuilder.domain.board.bean.BoardActor
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardPostReport
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardPostStatusNotActionableException
+import org.parkjg20.specificationbuilder.domain.board.repository.BoardPostEntityRepositoryInterface
+import org.parkjg20.specificationbuilder.domain.board.repository.BoardPostReportEntityRepositoryInterface
 import org.springframework.retry.annotation.Retryable
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional

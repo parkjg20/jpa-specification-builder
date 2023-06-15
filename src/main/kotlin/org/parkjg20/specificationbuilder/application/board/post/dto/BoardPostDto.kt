@@ -1,10 +1,10 @@
 package org.parkjg20.specificationbuilder.application.board.post.dto
 
-import com.neoguri.neogurinest.api.application.board.channel.dto.BoardHashtagDto
-import com.neoguri.neogurinest.api.application.board.dto.BoardActorDto
-import com.neoguri.neogurinest.api.application.common.dto.DescribedEnumDto
-import com.neoguri.neogurinest.api.domain.board.entity.BoardPost
-import com.neoguri.neogurinest.api.domain.board.enum.BoardPostStatus
+import org.parkjg20.specificationbuilder.application.board.channel.dto.BoardHashtagDto
+import org.parkjg20.specificationbuilder.application.board.dto.BoardActorDto
+import org.parkjg20.specificationbuilder.application.common.dto.DescribedEnumDto
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardPost
+import org.parkjg20.specificationbuilder.domain.board.enum.BoardPostStatus
 
 data class BoardPostDto(
     val postId: String,

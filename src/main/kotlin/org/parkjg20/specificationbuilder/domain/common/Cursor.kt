@@ -1,7 +1,5 @@
 package org.parkjg20.specificationbuilder.domain.common
 
-import com.neoguri.neogurinest.api.domain.common.exception.CursorBuildFailedException
-import org.springframework.data.domain.Sort
 import org.springframework.data.domain.Sort.Order
 
 data class Cursor(

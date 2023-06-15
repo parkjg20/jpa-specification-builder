@@ -1,10 +1,10 @@
 package org.parkjg20.specificationbuilder.domain.board.repository
 
-import com.neoguri.neogurinest.api.application.common.dto.CursorPage
-import com.neoguri.neogurinest.api.domain.board.entity.BoardChannel
-import com.neoguri.neogurinest.api.domain.board.exception.BoardChannelNotFoundException
-import com.neoguri.neogurinest.api.domain.common.CursorPageRequest
-import com.neoguri.neogurinest.api.domain.common.repository.AggregateRootRepository
+import org.parkjg20.specificationbuilder.application.common.dto.CursorPage
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardChannel
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardChannelNotFoundException
+import org.parkjg20.specificationbuilder.domain.common.CursorPageRequest
+import org.parkjg20.specificationbuilder.domain.common.repository.AggregateRootRepository
 import org.springframework.data.domain.Page
 import org.springframework.data.domain.Pageable
 import org.springframework.data.jpa.domain.Specification

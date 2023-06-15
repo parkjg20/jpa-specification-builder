@@ -1,14 +1,14 @@
 package org.parkjg20.specificationbuilder.persistence.repository.board
 
-import com.neoguri.neogurinest.api.application.common.dto.CursorPage
-import com.neoguri.neogurinest.api.domain.board.entity.BoardComment
-import com.neoguri.neogurinest.api.domain.board.exception.BoardCommentNotFoundException
-import com.neoguri.neogurinest.api.domain.board.repository.BoardCommentEntityRepositoryInterface
-import com.neoguri.neogurinest.api.domain.board.repository.jpa.BoardCommentRepositoryInterface
-import com.neoguri.neogurinest.api.domain.common.Cursor
-import com.neoguri.neogurinest.api.domain.common.CursorBuilder
-import com.neoguri.neogurinest.api.domain.common.CursorPageRequest
-import com.neoguri.neogurinest.api.persistence.specification.CursorSpecificationBuilder
+import org.parkjg20.specificationbuilder.application.common.dto.CursorPage
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardComment
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardCommentNotFoundException
+import org.parkjg20.specificationbuilder.domain.board.repository.BoardCommentEntityRepositoryInterface
+import org.parkjg20.specificationbuilder.domain.board.repository.jpa.BoardCommentRepositoryInterface
+import org.parkjg20.specificationbuilder.domain.common.Cursor
+import org.parkjg20.specificationbuilder.domain.common.CursorBuilder
+import org.parkjg20.specificationbuilder.domain.common.CursorPageRequest
+import org.parkjg20.specificationbuilder.persistence.specification.CursorSpecificationBuilder
 import org.springframework.data.domain.Page
 import org.springframework.data.domain.PageRequest
 import org.springframework.data.domain.Sort

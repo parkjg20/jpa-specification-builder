@@ -1,7 +1,7 @@
 package org.parkjg20.specificationbuilder.application.board.post.usecase
 
-import com.neoguri.neogurinest.api.application.board.post.dto.BoardPostDto
-import com.neoguri.neogurinest.api.application.board.post.dto.BoardPostFilterDto
-import com.neoguri.neogurinest.api.application.board.usecase.GetManyUsingPaginationUseCase
+import org.parkjg20.specificationbuilder.application.board.post.dto.BoardPostDto
+import org.parkjg20.specificationbuilder.application.board.post.dto.BoardPostFilterDto
+import org.parkjg20.specificationbuilder.application.board.usecase.GetManyUsingPaginationUseCase
 
 interface BoardPostGetManyUsingPaginationUseCase: GetManyUsingPaginationUseCase<BoardPostFilterDto, BoardPostDto>

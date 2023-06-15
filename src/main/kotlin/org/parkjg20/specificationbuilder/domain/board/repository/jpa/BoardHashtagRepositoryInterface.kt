@@ -1,6 +1,6 @@
 package org.parkjg20.specificationbuilder.domain.board.repository.jpa
 
-import com.neoguri.neogurinest.api.domain.board.entity.BoardHashtag
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardHashtag
 import org.springframework.data.jpa.repository.JpaRepository
 
 interface BoardHashtagRepositoryInterface : JpaRepository<BoardHashtag, String> {

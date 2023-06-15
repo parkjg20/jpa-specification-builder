@@ -1,8 +1,8 @@
 package org.parkjg20.specificationbuilder.persistence.repository.board
 
-import com.neoguri.neogurinest.api.domain.board.entity.BoardPostReport
-import com.neoguri.neogurinest.api.domain.board.repository.BoardPostReportEntityRepositoryInterface
-import com.neoguri.neogurinest.api.domain.board.repository.jpa.BoardPostReportRepositoryInterface
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardPostReport
+import org.parkjg20.specificationbuilder.domain.board.repository.BoardPostReportEntityRepositoryInterface
+import org.parkjg20.specificationbuilder.domain.board.repository.jpa.BoardPostReportRepositoryInterface
 import org.springframework.stereotype.Repository
 import javax.persistence.EntityNotFoundException
 

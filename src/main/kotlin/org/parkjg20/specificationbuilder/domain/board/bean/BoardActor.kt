@@ -1,6 +1,6 @@
 package org.parkjg20.specificationbuilder.domain.board.bean
 
-import com.neoguri.neogurinest.api.domain.user.entity.User
+import org.parkjg20.specificationbuilder.domain.user.entity.User
 import org.springframework.security.core.GrantedAuthority
 
 data class BoardActor(

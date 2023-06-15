@@ -1,14 +1,14 @@
 package org.parkjg20.specificationbuilder.application.board.post.usecase.impl
 
-import com.neoguri.neogurinest.api.application.board.post.dto.BoardPostDto
-import com.neoguri.neogurinest.api.application.board.post.dto.BoardPostFilterDto
-import com.neoguri.neogurinest.api.application.board.post.usecase.BoardPostGetManyUsingPaginationUseCase
-import com.neoguri.neogurinest.api.application.board.usecase.AbstractGetMany
-import com.neoguri.neogurinest.api.application.common.dto.PaginatedResultDto
-import com.neoguri.neogurinest.api.application.common.dto.PaginationDto
-import com.neoguri.neogurinest.api.domain.board.bean.BoardActor
-import com.neoguri.neogurinest.api.domain.board.repository.BoardPostEntityRepositoryInterface
-import com.neoguri.neogurinest.api.persistence.specification.board.post.BoardPostSpecification
+import org.parkjg20.specificationbuilder.application.board.post.dto.BoardPostDto
+import org.parkjg20.specificationbuilder.application.board.post.dto.BoardPostFilterDto
+import org.parkjg20.specificationbuilder.application.board.post.usecase.BoardPostGetManyUsingPaginationUseCase
+import org.parkjg20.specificationbuilder.application.board.usecase.AbstractGetMany
+import org.parkjg20.specificationbuilder.application.common.dto.PaginatedResultDto
+import org.parkjg20.specificationbuilder.application.common.dto.PaginationDto
+import org.parkjg20.specificationbuilder.domain.board.bean.BoardActor
+import org.parkjg20.specificationbuilder.domain.board.repository.BoardPostEntityRepositoryInterface
+import org.parkjg20.specificationbuilder.persistence.specification.board.post.BoardPostSpecification
 import org.springframework.data.domain.PageRequest
 import org.springframework.stereotype.Service
 

@@ -1,6 +1,6 @@
 package org.parkjg20.specificationbuilder.application.board.action.comment.dto
 
-import com.neoguri.neogurinest.api.domain.board.enum.BoardCommentReportType
+import org.parkjg20.specificationbuilder.domain.board.enum.BoardCommentReportType
 
 data class BoardCommentReportAddDto(
     val commentId: String,

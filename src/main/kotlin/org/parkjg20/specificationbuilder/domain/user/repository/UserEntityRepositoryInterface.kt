@@ -1,7 +1,7 @@
 package org.parkjg20.specificationbuilder.domain.user.repository
 
-import com.neoguri.neogurinest.api.domain.common.repository.AggregateRootRepository
-import com.neoguri.neogurinest.api.domain.user.entity.User
+import org.parkjg20.specificationbuilder.domain.common.repository.AggregateRootRepository
+import org.parkjg20.specificationbuilder.domain.user.entity.User
 import java.util.*
 
 interface UserEntityRepositoryInterface : AggregateRootRepository<User, Int> {

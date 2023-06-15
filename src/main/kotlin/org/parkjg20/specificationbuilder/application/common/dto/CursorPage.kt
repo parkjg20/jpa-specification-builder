@@ -1,6 +1,6 @@
 package org.parkjg20.specificationbuilder.application.common.dto
 
-import com.neoguri.neogurinest.api.domain.common.Cursor
+import org.parkjg20.specificationbuilder.domain.common.Cursor
 
 data class CursorPage<T>(
     val cursors: List<Cursor>,

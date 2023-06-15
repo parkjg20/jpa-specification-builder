@@ -1,10 +1,10 @@
 package org.parkjg20.specificationbuilder.domain.board.entity
 
-import com.neoguri.neogurinest.api.application.board.post.dto.BoardPostAddDto
-import com.neoguri.neogurinest.api.application.board.post.dto.BoardPostUpdateDto
-import com.neoguri.neogurinest.api.domain.board.enum.BoardPostStatus
-import com.neoguri.neogurinest.api.domain.user.entity.User
-import com.neoguri.neogurinest.api.util.StringGenerator
+import org.parkjg20.specificationbuilder.application.board.post.dto.BoardPostAddDto
+import org.parkjg20.specificationbuilder.application.board.post.dto.BoardPostUpdateDto
+import org.parkjg20.specificationbuilder.domain.board.enum.BoardPostStatus
+import org.parkjg20.specificationbuilder.domain.user.entity.User
+import org.parkjg20.specificationbuilder.util.StringGenerator
 import java.time.Instant
 import javax.persistence.*
 

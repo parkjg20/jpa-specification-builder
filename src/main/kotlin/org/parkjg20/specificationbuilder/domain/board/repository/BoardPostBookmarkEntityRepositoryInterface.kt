@@ -1,8 +1,8 @@
 package org.parkjg20.specificationbuilder.domain.board.repository
 
-import com.neoguri.neogurinest.api.domain.board.entity.BoardPostBookmark
-import com.neoguri.neogurinest.api.domain.board.entity.BoardPostBookmarkId
-import com.neoguri.neogurinest.api.domain.common.repository.AggregateRootRepository
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardPostBookmark
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardPostBookmarkId
+import org.parkjg20.specificationbuilder.domain.common.repository.AggregateRootRepository
 
 interface BoardPostBookmarkEntityRepositoryInterface: AggregateRootRepository<BoardPostBookmark, BoardPostBookmarkId> {
 

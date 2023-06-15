@@ -1,10 +1,13 @@
 package org.parkjg20.specificationbuilder.domain.board.entity
 
-import com.neoguri.neogurinest.api.application.board.channel.dto.BoardAddDto
-import com.neoguri.neogurinest.api.domain.board.enum.BoardStatus
-import com.neoguri.neogurinest.api.util.StringGenerator
+import org.parkjg20.specificationbuilder.application.board.channel.dto.BoardAddDto
+import org.parkjg20.specificationbuilder.domain.board.enum.BoardStatus
+import org.parkjg20.specificationbuilder.util.StringGenerator
 import java.time.Instant
-import javax.persistence.*
+import javax.persistence.Column
+import javax.persistence.Entity
+import javax.persistence.Id
+import javax.persistence.Table
 
 @Entity
 @Table(name = "board_channels")

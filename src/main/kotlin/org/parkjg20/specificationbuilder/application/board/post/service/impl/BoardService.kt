@@ -1,8 +1,8 @@
 package org.parkjg20.specificationbuilder.application.board.post.service.impl
 
-import com.neoguri.neogurinest.api.application.board.post.service.BoardServiceInterface
-import com.neoguri.neogurinest.api.domain.board.entity.BoardChannel
-import com.neoguri.neogurinest.api.domain.board.repository.jpa.BoardChannelRepositoryInterface
+import org.parkjg20.specificationbuilder.application.board.post.service.BoardServiceInterface
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardChannel
+import org.parkjg20.specificationbuilder.domain.board.repository.jpa.BoardChannelRepositoryInterface
 import org.springframework.stereotype.Service
 import java.time.Instant
 

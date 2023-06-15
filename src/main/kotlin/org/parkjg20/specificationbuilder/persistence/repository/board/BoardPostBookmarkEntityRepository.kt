@@ -1,9 +1,9 @@
 package org.parkjg20.specificationbuilder.persistence.repository.board
 
-import com.neoguri.neogurinest.api.domain.board.entity.BoardPostBookmark
-import com.neoguri.neogurinest.api.domain.board.entity.BoardPostBookmarkId
-import com.neoguri.neogurinest.api.domain.board.repository.BoardPostBookmarkEntityRepositoryInterface
-import com.neoguri.neogurinest.api.domain.board.repository.jpa.BoardPostBookmarkRepositoryInterface
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardPostBookmark
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardPostBookmarkId
+import org.parkjg20.specificationbuilder.domain.board.repository.BoardPostBookmarkEntityRepositoryInterface
+import org.parkjg20.specificationbuilder.domain.board.repository.jpa.BoardPostBookmarkRepositoryInterface
 import org.springframework.stereotype.Repository
 
 @Repository

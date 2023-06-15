@@ -1,7 +1,7 @@
 package org.parkjg20.specificationbuilder.domain.nest.entity
 
-import com.neoguri.neogurinest.api.application.nest.dto.request.NestAddDto
-import com.neoguri.neogurinest.api.domain.nest.enum.NestStatus
+import org.parkjg20.specificationbuilder.application.nest.dto.request.NestAddDto
+import org.parkjg20.specificationbuilder.domain.nest.enum.NestStatus
 import java.time.Instant
 import javax.persistence.*
 

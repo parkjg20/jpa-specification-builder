@@ -1,11 +1,11 @@
 package org.parkjg20.specificationbuilder.application.board.channel.usecase.impl
 
-import com.neoguri.neogurinest.api.application.board.channel.dto.BoardChannelDto
-import com.neoguri.neogurinest.api.application.board.channel.dto.BoardStatusUpdateDto
-import com.neoguri.neogurinest.api.application.board.channel.usecase.BoardChannelStatusUpdateUseCase
-import com.neoguri.neogurinest.api.domain.board.exception.BoardChannelStatusNotConvertableException
-import com.neoguri.neogurinest.api.domain.board.repository.BoardChannelEntityRepositoryInterface
-import com.neoguri.neogurinest.api.domain.common.exception.StatusAlreadyChangedException
+import org.parkjg20.specificationbuilder.application.board.channel.dto.BoardChannelDto
+import org.parkjg20.specificationbuilder.application.board.channel.dto.BoardStatusUpdateDto
+import org.parkjg20.specificationbuilder.application.board.channel.usecase.BoardChannelStatusUpdateUseCase
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardChannelStatusNotConvertableException
+import org.parkjg20.specificationbuilder.domain.board.repository.BoardChannelEntityRepositoryInterface
+import org.parkjg20.specificationbuilder.domain.common.exception.StatusAlreadyChangedException
 import org.springframework.retry.annotation.Retryable
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional

@@ -1,6 +1,6 @@
 package org.parkjg20.specificationbuilder.domain.user.enum
 
-import com.neoguri.neogurinest.api.domain.common.exception.UnexpectedStatusException
+import org.parkjg20.specificationbuilder.domain.common.exception.UnexpectedStatusException
 import javax.persistence.AttributeConverter
 import javax.persistence.Converter
 

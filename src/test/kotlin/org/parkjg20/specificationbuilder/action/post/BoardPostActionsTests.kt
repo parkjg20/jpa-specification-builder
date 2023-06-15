@@ -1,12 +1,12 @@
 package org.parkjg20.specificationbuilder.action.post
 
-import com.neoguri.neogurinest.api.application.board.action.post.dto.BoardPostReportAddDto
-import com.neoguri.neogurinest.api.application.board.action.post.usecase.BoardPostLikeAddUseCase
-import com.neoguri.neogurinest.api.application.board.action.post.usecase.BoardPostReportAddUseCase
-import com.neoguri.neogurinest.api.domain.board.bean.BoardActor
-import com.neoguri.neogurinest.api.domain.board.enum.BoardPostReportType
-import com.neoguri.neogurinest.api.domain.user.repository.UserEntityRepositoryInterface
 import org.junit.jupiter.api.Test
+import org.parkjg20.specificationbuilder.application.board.action.post.dto.BoardPostReportAddDto
+import org.parkjg20.specificationbuilder.application.board.action.post.usecase.BoardPostLikeAddUseCase
+import org.parkjg20.specificationbuilder.application.board.action.post.usecase.BoardPostReportAddUseCase
+import org.parkjg20.specificationbuilder.domain.board.bean.BoardActor
+import org.parkjg20.specificationbuilder.domain.board.enum.BoardPostReportType
+import org.parkjg20.specificationbuilder.domain.user.repository.UserEntityRepositoryInterface
 import org.springframework.boot.test.context.SpringBootTest
 import java.nio.charset.Charset
 import javax.annotation.Resource

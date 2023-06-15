@@ -1,9 +1,8 @@
 package org.parkjg20.specificationbuilder.application.board.channel.dto
 
-import com.neoguri.neogurinest.api.application.common.dto.DescribedEnumDto
-import com.neoguri.neogurinest.api.domain.board.entity.BoardChannel
-import com.neoguri.neogurinest.api.domain.board.enum.BoardStatus
-import com.neoguri.neogurinest.api.util.DateFormatUtil
+import org.parkjg20.specificationbuilder.application.common.dto.DescribedEnumDto
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardChannel
+import org.parkjg20.specificationbuilder.domain.board.enum.BoardStatus
 
 data class BoardChannelDto(
     val channelId: String,

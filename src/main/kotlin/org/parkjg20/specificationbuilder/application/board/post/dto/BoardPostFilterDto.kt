@@ -1,7 +1,7 @@
 package org.parkjg20.specificationbuilder.application.board.post.dto
 
-import com.neoguri.neogurinest.api.domain.board.enum.BoardPostStatus
-import com.neoguri.neogurinest.api.persistence.specification.RangeInstant
+import org.parkjg20.specificationbuilder.domain.board.enum.BoardPostStatus
+import org.parkjg20.specificationbuilder.persistence.specification.RangeInstant
 
 data class BoardPostFilterDto(
     val channelId: String,

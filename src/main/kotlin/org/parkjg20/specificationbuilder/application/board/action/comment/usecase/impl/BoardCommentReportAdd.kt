@@ -1,13 +1,13 @@
 package org.parkjg20.specificationbuilder.application.board.action.comment.usecase.impl
 
-import com.neoguri.neogurinest.api.application.board.action.comment.dto.BoardCommentReportAddDto
-import com.neoguri.neogurinest.api.application.board.action.comment.dto.BoardCommentReportDto
-import com.neoguri.neogurinest.api.application.board.action.comment.usecase.BoardCommentReportAddUseCase
-import com.neoguri.neogurinest.api.domain.board.bean.BoardActor
-import com.neoguri.neogurinest.api.domain.board.entity.BoardCommentReport
-import com.neoguri.neogurinest.api.domain.board.exception.BoardPostStatusNotActionableException
-import com.neoguri.neogurinest.api.domain.board.repository.BoardCommentEntityRepositoryInterface
-import com.neoguri.neogurinest.api.domain.board.repository.BoardCommentReportEntityRepositoryInterface
+import org.parkjg20.specificationbuilder.application.board.action.comment.dto.BoardCommentReportAddDto
+import org.parkjg20.specificationbuilder.application.board.action.comment.dto.BoardCommentReportDto
+import org.parkjg20.specificationbuilder.application.board.action.comment.usecase.BoardCommentReportAddUseCase
+import org.parkjg20.specificationbuilder.domain.board.bean.BoardActor
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardCommentReport
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardPostStatusNotActionableException
+import org.parkjg20.specificationbuilder.domain.board.repository.BoardCommentEntityRepositoryInterface
+import org.parkjg20.specificationbuilder.domain.board.repository.BoardCommentReportEntityRepositoryInterface
 import org.springframework.retry.annotation.Retryable
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional

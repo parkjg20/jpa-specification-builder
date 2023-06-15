@@ -1,8 +1,8 @@
 package org.parkjg20.specificationbuilder.application.board.action.comment.usecase
 
-import com.neoguri.neogurinest.api.application.board.action.comment.dto.BoardCommentReportAddDto
-import com.neoguri.neogurinest.api.application.board.action.comment.dto.BoardCommentReportDto
-import com.neoguri.neogurinest.api.domain.board.bean.BoardActor
+import org.parkjg20.specificationbuilder.application.board.action.comment.dto.BoardCommentReportAddDto
+import org.parkjg20.specificationbuilder.application.board.action.comment.dto.BoardCommentReportDto
+import org.parkjg20.specificationbuilder.domain.board.bean.BoardActor
 
 interface BoardCommentReportAddUseCase {
 

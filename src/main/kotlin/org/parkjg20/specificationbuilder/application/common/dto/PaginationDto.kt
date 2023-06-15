@@ -1,6 +1,6 @@
 package org.parkjg20.specificationbuilder.application.common.dto
 
-import com.neoguri.neogurinest.api.presentation.param.OrderDtoBuilder
+import org.parkjg20.specificationbuilder.presentation.param.OrderDtoBuilder
 
 data class PaginationDto(
     val page: Int,

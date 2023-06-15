@@ -1,8 +1,8 @@
 package org.parkjg20.specificationbuilder.presentation
 
-import com.neoguri.neogurinest.api.application.auth.dto.LoginUserDto
-import com.neoguri.neogurinest.api.presentation.exception.ForbiddenException
-import com.neoguri.neogurinest.api.presentation.exception.UnauthorizedException
+import org.parkjg20.specificationbuilder.application.auth.dto.LoginUserDto
+import org.parkjg20.specificationbuilder.presentation.exception.ForbiddenException
+import org.parkjg20.specificationbuilder.presentation.exception.UnauthorizedException
 import org.springframework.security.core.Authentication
 import org.springframework.security.core.context.SecurityContextHolder
 

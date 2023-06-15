@@ -1,10 +1,10 @@
 package org.parkjg20.specificationbuilder.application.board.action.post.dto
 
-import com.neoguri.neogurinest.api.application.board.dto.BoardActorDto
-import com.neoguri.neogurinest.api.application.common.dto.DescribedEnumDto
-import com.neoguri.neogurinest.api.domain.board.entity.BoardPostReport
-import com.neoguri.neogurinest.api.domain.board.enum.BoardPostReportStatus
-import com.neoguri.neogurinest.api.domain.board.enum.BoardPostReportType
+import org.parkjg20.specificationbuilder.application.board.dto.BoardActorDto
+import org.parkjg20.specificationbuilder.application.common.dto.DescribedEnumDto
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardPostReport
+import org.parkjg20.specificationbuilder.domain.board.enum.BoardPostReportStatus
+import org.parkjg20.specificationbuilder.domain.board.enum.BoardPostReportType
 
 data class BoardPostReportDto(
     val reportId: String,

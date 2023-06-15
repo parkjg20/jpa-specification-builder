@@ -1,15 +1,15 @@
 package org.parkjg20.specificationbuilder.application.board.comment.usecase.impl
 
-import com.neoguri.neogurinest.api.application.board.comment.dto.BoardCommentAddDto
-import com.neoguri.neogurinest.api.application.board.comment.dto.BoardCommentDto
-import com.neoguri.neogurinest.api.application.board.comment.usecase.BoardCommentAddUseCase
-import com.neoguri.neogurinest.api.domain.board.bean.BoardActor
-import com.neoguri.neogurinest.api.domain.board.entity.BoardComment
-import com.neoguri.neogurinest.api.domain.board.exception.BoardPostStatusNotCommentableException
-import com.neoguri.neogurinest.api.domain.board.repository.BoardCommentEntityRepositoryInterface
-import com.neoguri.neogurinest.api.domain.board.repository.BoardPostEntityRepositoryInterface
-import com.neoguri.neogurinest.api.domain.common.exception.DuplicatedEntityException
 import org.hibernate.exception.ConstraintViolationException
+import org.parkjg20.specificationbuilder.application.board.comment.dto.BoardCommentAddDto
+import org.parkjg20.specificationbuilder.application.board.comment.dto.BoardCommentDto
+import org.parkjg20.specificationbuilder.application.board.comment.usecase.BoardCommentAddUseCase
+import org.parkjg20.specificationbuilder.domain.board.bean.BoardActor
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardComment
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardPostStatusNotCommentableException
+import org.parkjg20.specificationbuilder.domain.board.repository.BoardCommentEntityRepositoryInterface
+import org.parkjg20.specificationbuilder.domain.board.repository.BoardPostEntityRepositoryInterface
+import org.parkjg20.specificationbuilder.domain.common.exception.DuplicatedEntityException
 import org.springframework.dao.DataIntegrityViolationException
 import org.springframework.retry.annotation.Retryable
 import org.springframework.stereotype.Service

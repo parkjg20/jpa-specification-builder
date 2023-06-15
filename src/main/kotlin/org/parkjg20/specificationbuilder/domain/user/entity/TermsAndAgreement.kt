@@ -1,7 +1,7 @@
 package org.parkjg20.specificationbuilder.domain.user.entity
 
-import com.neoguri.neogurinest.api.domain.user.enum.TermAndAgreementStatus
-import com.neoguri.neogurinest.api.domain.user.enum.TermAndAgreementType
+import org.parkjg20.specificationbuilder.domain.user.enum.TermAndAgreementStatus
+import org.parkjg20.specificationbuilder.domain.user.enum.TermAndAgreementType
 import java.time.Instant
 import javax.persistence.*
 

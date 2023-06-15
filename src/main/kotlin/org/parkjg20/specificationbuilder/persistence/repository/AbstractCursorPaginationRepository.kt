@@ -1,9 +1,9 @@
 package org.parkjg20.specificationbuilder.persistence.repository
 
-import com.neoguri.neogurinest.api.application.common.dto.CursorPage
-import com.neoguri.neogurinest.api.domain.common.Cursor
-import com.neoguri.neogurinest.api.domain.common.CursorPageRequest
-import com.neoguri.neogurinest.api.persistence.specification.CursorSpecificationBuilder
+import org.parkjg20.specificationbuilder.application.common.dto.CursorPage
+import org.parkjg20.specificationbuilder.domain.common.Cursor
+import org.parkjg20.specificationbuilder.domain.common.CursorPageRequest
+import org.parkjg20.specificationbuilder.persistence.specification.CursorSpecificationBuilder
 import org.springframework.data.domain.Sort
 import org.springframework.data.jpa.domain.Specification
 

@@ -1,9 +1,9 @@
 package org.parkjg20.specificationbuilder.action.post
 
-import com.neoguri.neogurinest.api.application.board.action.comment.usecase.BoardCommentLikeAddUseCase
-import com.neoguri.neogurinest.api.domain.board.bean.BoardActor
-import com.neoguri.neogurinest.api.domain.user.repository.UserEntityRepositoryInterface
 import org.junit.jupiter.api.Test
+import org.parkjg20.specificationbuilder.application.board.action.comment.usecase.BoardCommentLikeAddUseCase
+import org.parkjg20.specificationbuilder.domain.board.bean.BoardActor
+import org.parkjg20.specificationbuilder.domain.user.repository.UserEntityRepositoryInterface
 import org.springframework.boot.test.context.SpringBootTest
 import javax.annotation.Resource
 

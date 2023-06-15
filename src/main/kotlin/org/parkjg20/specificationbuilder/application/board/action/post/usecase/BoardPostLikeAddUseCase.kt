@@ -1,8 +1,8 @@
 package org.parkjg20.specificationbuilder.application.board.action.post.usecase
 
-import com.neoguri.neogurinest.api.domain.board.bean.BoardActor
-import com.neoguri.neogurinest.api.domain.board.exception.BoardPostNotFoundException
-import com.neoguri.neogurinest.api.domain.board.exception.BoardPostStatusNotActionableException
+import org.parkjg20.specificationbuilder.domain.board.bean.BoardActor
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardPostNotFoundException
+import org.parkjg20.specificationbuilder.domain.board.exception.BoardPostStatusNotActionableException
 
 interface BoardPostLikeAddUseCase {
 

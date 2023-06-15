@@ -1,8 +1,8 @@
 package org.parkjg20.specificationbuilder.application.board.channel.usecase
 
-import com.neoguri.neogurinest.api.application.board.channel.dto.BoardAddDto
-import com.neoguri.neogurinest.api.application.board.channel.dto.BoardChannelDto
-import com.neoguri.neogurinest.api.domain.common.exception.DuplicatedEntityException
+import org.parkjg20.specificationbuilder.application.board.channel.dto.BoardAddDto
+import org.parkjg20.specificationbuilder.application.board.channel.dto.BoardChannelDto
+import org.parkjg20.specificationbuilder.domain.common.exception.DuplicatedEntityException
 
 interface BoardChannelAddUseCase {
 

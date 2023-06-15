@@ -1,6 +1,6 @@
 package org.parkjg20.specificationbuilder.domain.board.repository.jpa
 
-import com.neoguri.neogurinest.api.domain.board.entity.BoardComment
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardComment
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor
 

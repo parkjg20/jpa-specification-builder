@@ -1,12 +1,12 @@
 package org.parkjg20.specificationbuilder.application.board.channel.usecase.impl
 
-import com.neoguri.neogurinest.api.application.board.channel.dto.BoardAddDto
-import com.neoguri.neogurinest.api.application.board.channel.dto.BoardChannelDto
-import com.neoguri.neogurinest.api.application.board.channel.usecase.BoardChannelAddUseCase
-import com.neoguri.neogurinest.api.domain.board.entity.BoardChannel
-import com.neoguri.neogurinest.api.domain.board.repository.BoardChannelEntityRepositoryInterface
-import com.neoguri.neogurinest.api.domain.common.exception.DuplicatedEntityException
 import org.hibernate.exception.ConstraintViolationException
+import org.parkjg20.specificationbuilder.application.board.channel.dto.BoardAddDto
+import org.parkjg20.specificationbuilder.application.board.channel.dto.BoardChannelDto
+import org.parkjg20.specificationbuilder.application.board.channel.usecase.BoardChannelAddUseCase
+import org.parkjg20.specificationbuilder.domain.board.entity.BoardChannel
+import org.parkjg20.specificationbuilder.domain.board.repository.BoardChannelEntityRepositoryInterface
+import org.parkjg20.specificationbuilder.domain.common.exception.DuplicatedEntityException
 import org.springframework.dao.DataIntegrityViolationException
 import org.springframework.retry.annotation.Retryable
 import org.springframework.stereotype.Service

@@ -1,6 +1,6 @@
 package org.parkjg20.specificationbuilder.application.board.usecase
 
-import com.neoguri.neogurinest.api.application.common.dto.OrderRequestDto
+import org.parkjg20.specificationbuilder.application.common.dto.OrderRequestDto
 import org.springframework.data.domain.Sort
 import org.springframework.data.domain.Sort.Order
 

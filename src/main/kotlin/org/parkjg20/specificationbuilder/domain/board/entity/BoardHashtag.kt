@@ -1,8 +1,7 @@
 package org.parkjg20.specificationbuilder.domain.board.entity
 
-import com.neoguri.neogurinest.api.util.StringGenerator
+import org.parkjg20.specificationbuilder.util.StringGenerator
 import java.time.Instant
-import java.util.*
 import javax.persistence.Column
 import javax.persistence.Entity
 import javax.persistence.Id

@@ -1,6 +1,6 @@
 package org.parkjg20.specificationbuilder.domain.board.entity
 
-import com.neoguri.neogurinest.api.domain.board.bean.BoardActor
+import org.parkjg20.specificationbuilder.domain.board.bean.BoardActor
 import java.time.Instant
 import javax.persistence.Column
 import javax.persistence.EmbeddedId

@@ -1,16 +1,16 @@
 package org.parkjg20.specificationbuilder.application.board.channel.usecase.impl
 
-import com.neoguri.neogurinest.api.application.board.channel.dto.BoardChannelDto
-import com.neoguri.neogurinest.api.application.board.channel.dto.BoardChannelFilterDto
-import com.neoguri.neogurinest.api.application.board.channel.usecase.BoardChannelGetManyUsingCursorUseCase
-import com.neoguri.neogurinest.api.application.board.usecase.AbstractGetManyUsingCursor
-import com.neoguri.neogurinest.api.application.common.dto.CursorPaginatedResultDto
-import com.neoguri.neogurinest.api.application.common.dto.CursorPaginationDto
-import com.neoguri.neogurinest.api.application.common.dto.OrderRequestDto
-import com.neoguri.neogurinest.api.domain.board.bean.BoardActor
-import com.neoguri.neogurinest.api.domain.board.repository.BoardChannelEntityRepositoryInterface
-import com.neoguri.neogurinest.api.domain.common.CursorPageRequest
-import com.neoguri.neogurinest.api.persistence.specification.board.channel.BoardChannelSpecification
+import org.parkjg20.specificationbuilder.application.board.channel.dto.BoardChannelDto
+import org.parkjg20.specificationbuilder.application.board.channel.dto.BoardChannelFilterDto
+import org.parkjg20.specificationbuilder.application.board.channel.usecase.BoardChannelGetManyUsingCursorUseCase
+import org.parkjg20.specificationbuilder.application.board.usecase.AbstractGetManyUsingCursor
+import org.parkjg20.specificationbuilder.application.common.dto.CursorPaginatedResultDto
+import org.parkjg20.specificationbuilder.application.common.dto.CursorPaginationDto
+import org.parkjg20.specificationbuilder.application.common.dto.OrderRequestDto
+import org.parkjg20.specificationbuilder.domain.board.bean.BoardActor
+import org.parkjg20.specificationbuilder.domain.board.repository.BoardChannelEntityRepositoryInterface
+import org.parkjg20.specificationbuilder.domain.common.CursorPageRequest
+import org.parkjg20.specificationbuilder.persistence.specification.board.channel.BoardChannelSpecification
 import org.springframework.data.domain.PageRequest
 import org.springframework.data.domain.Sort
 import org.springframework.stereotype.Service

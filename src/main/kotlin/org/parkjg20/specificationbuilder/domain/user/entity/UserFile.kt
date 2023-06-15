@@ -1,9 +1,11 @@
 package org.parkjg20.specificationbuilder.domain.user.entity
 
-import com.neoguri.neogurinest.api.application.user.dto.request.UserFileAddDto
-import com.neoguri.neogurinest.api.domain.file.entity.File
-import com.neoguri.neogurinest.api.domain.user.enum.UserFileType
-import javax.persistence.*
+import org.parkjg20.specificationbuilder.domain.file.entity.File
+import org.parkjg20.specificationbuilder.domain.user.enum.UserFileType
+import javax.persistence.Column
+import javax.persistence.EmbeddedId
+import javax.persistence.Entity
+import javax.persistence.Table
 
 @Entity
 @Table(name = "user_files")

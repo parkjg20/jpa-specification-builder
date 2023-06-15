@@ -1,9 +1,9 @@
 package org.parkjg20.specificationbuilder.application.board.usecase
 
-import com.neoguri.neogurinest.api.domain.board.bean.BoardActor
-import com.neoguri.neogurinest.api.application.common.dto.CursorPaginatedResultDto
-import com.neoguri.neogurinest.api.application.common.dto.CursorPaginationDto
-import com.neoguri.neogurinest.api.application.common.dto.OrderRequestDto
+import org.parkjg20.specificationbuilder.application.common.dto.CursorPaginatedResultDto
+import org.parkjg20.specificationbuilder.application.common.dto.CursorPaginationDto
+import org.parkjg20.specificationbuilder.application.common.dto.OrderRequestDto
+import org.parkjg20.specificationbuilder.domain.board.bean.BoardActor
 
 interface GetManyUsingCursorUseCase<F, T> {
 

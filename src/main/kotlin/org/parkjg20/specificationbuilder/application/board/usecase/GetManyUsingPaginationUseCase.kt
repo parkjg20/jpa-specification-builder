@@ -1,8 +1,8 @@
 package org.parkjg20.specificationbuilder.application.board.usecase
 
-import com.neoguri.neogurinest.api.domain.board.bean.BoardActor
-import com.neoguri.neogurinest.api.application.common.dto.PaginatedResultDto
-import com.neoguri.neogurinest.api.application.common.dto.PaginationDto
+import org.parkjg20.specificationbuilder.application.common.dto.PaginatedResultDto
+import org.parkjg20.specificationbuilder.application.common.dto.PaginationDto
+import org.parkjg20.specificationbuilder.domain.board.bean.BoardActor
 
 interface GetManyUsingPaginationUseCase<F, T> {
 
