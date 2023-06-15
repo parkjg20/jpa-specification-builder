@@ -9,7 +9,7 @@ plugins {
 	kotlin("plugin.jpa") version "1.6.21"
 }
 
-group = "com.neoguri"
+group = "org.parkjg20"
 version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_11
 
@@ -34,9 +34,6 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("org.springframework.retry:spring-retry")
 
-	// Liquibase
-	implementation("org.liquibase:liquibase-core:4.3.1")
-
 	compileOnly("org.projectlombok:lombok")
 	runtimeOnly("mysql:mysql-connector-java")
 	annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
@@ -45,9 +42,6 @@ dependencies {
 	testImplementation("org.springframework.restdocs:spring-restdocs-mockmvc")
 	testImplementation("org.springframework.security:spring-security-test")
 
-	implementation("io.jsonwebtoken:jjwt-api:0.11.2")
-	runtimeOnly("io.jsonwebtoken:jjwt-impl:0.11.2")
-	runtimeOnly("io.jsonwebtoken:jjwt-jackson:0.11.2")
 }
 
 tasks.withType<KotlinCompile> {
